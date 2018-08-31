@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+td, tr {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+ <h1 align="center">Registeration</h1>
+		<form action ="details" method ="post">
+		<table align = "center">
+			<tr>
+				<td>Name <font color = "red">*</font> 
+				</td>
+				<td>
+					<input type = "text" name ="name" placeholder="Enter your Full name" required><br>
+				</td>
+			</tr>
+			<tr></tr><tr></tr>
+			<tr>
+				<td>Age <font color = "red">*</font> 
+				</td>
+				<td>
+					<input type = "number" min="20" max ="45" name ="age" required><br>
+				</td>
+			</tr>
+			<tr><tr></tr></tr>
+			<tr>
+				<td>Date Of Birth <font color = "red">*</font> 
+				</td>
+				<td>
+					<input type = "date"  name ="dob"  required>
+				</td>
+			</tr>
+			<tr><tr></tr></tr>
+			<tr>
+				<td>Address <font color = "red">*</font> 
+				</td>
+				<td>
+					<textarea rows="3" cols="25" name="address"></textarea>
+				</td>
+			</tr>
+			<tr></tr><tr></tr>
+			<tr>
+				<td>Salary Per Month </td>
+				<td><select name = "salary">
+						<option value="10k - 20 k" >10k - 20 k</option>
+						<option value="20k - 30 k" >20k - 30 k</option>
+						<option value="30k - 40 k" >30k - 40 k</option>
+						<option value="40k - 50 k" >40k - 50 k</option>
+						<option value=">50 k" >>50 k</option>
+				</select>
+				</td>
+			</tr>
+			<tr></tr><tr></tr>
+			<tr>
+				<td>Description <font color ="red">*</font></td>
+				<td><textarea rows ="3" cols = "25" name="description"></textarea>
+			</td>
+			</tr>
+			<tr></tr><tr></tr>
+			<tr>
+				<td>E-mail <font color = "red">*</font></td>
+				<td><input type="email" name = "email" placeholder="valid mail"></td>
+			</tr>
+			<tr></tr><tr></tr>
+			<tr>
+				<td>Phone Number <font color ="red">*</font></td>
+				<td><input type ="text" name="phonenumber" placeholder="mobile number"   >
+				</td>
+			</tr>
+			
+			
+ 			</table><br>
+ 		
+ 			<table align = "center">
+ 			<tr>
+ 				<td><input type="submit" value="Submit" ></td>
+				<td><input type="reset" value="Reset" ></td>
+				</tr>
+				
+ 			</table>
+			
+			
+	</form>
+</body>
+</html>
